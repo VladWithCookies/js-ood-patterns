@@ -1,0 +1,10 @@
+{
+  "name": "ts-ood-patterns",
+  "version": "1.0.0",
+  "repository": "git@github.com:VladWithCookies/ts-ood-patterns.git",
+  "author": "Vlad V <summervibeswith9pm@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
