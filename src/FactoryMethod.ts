@@ -2,6 +2,10 @@ interface Vehicle {
   deliver: VoidFunction;
 }
 
+interface Logistics {
+  createVehicle(): Vehicle;
+}
+
 class Truck implements Vehicle {
   deliver() {
     console.log('Delivering by road...');
@@ -12,10 +16,6 @@ class Ship implements Vehicle {
   deliver() {
     console.log('Delivering by sea...')
   }
-}
-
-interface Logistics {
-  createVehicle(): Vehicle;
 }
 
 class RoadLogistics implements Logistics {
